@@ -10,7 +10,7 @@ public class Amazon {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
-		driver.findElement(By.partialLinkText("Best Sellers")).click();
+		driver.findElement(By.partialLinkText("Best b Sellers")).click();
 		driver.close();
 
 	}
